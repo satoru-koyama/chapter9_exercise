@@ -4,16 +4,12 @@
   box-sizing: border-box;
 }
 
-main {
-  width: 100%;
-}
-
-.box1 {
+header {
   height: 50px;
   background-color: #ff9a4b;
 }
 
-.content {
+main {
   width: 960px;
   margin: 50px auto;
   display: flex;
@@ -28,44 +24,45 @@ main {
   position: relative;
 }
 
+.content-list:last-child {
+  margin-right: 0;
+}
+
 .content-number {
   background-color: #ff9a4b;
   color: white;
   position: absolute;
   top: 0px;
   left: 0px;
+  padding: 3px;
 }
 
 .content-visual1 {
   background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 150px;
 }
 
 .content-visual2 {
   background-image: url(img/flow02.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 150px;
 }
 
 .content-visual3 {
   background-image: url(img/flow03.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 150px;
 }
 
 .title {
-  margin-top: 15px;
+  margin: 15px 0 5px;
 }
 
-.sentence {
-  margin-top: 5px;
-}
-
-.box2 {
+footer {
   height: 50px;
   background-color: #aaaaaa;
 }
